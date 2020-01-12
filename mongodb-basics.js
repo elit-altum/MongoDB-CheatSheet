@@ -23,7 +23,7 @@ MongoClient.connect(connectionURL, { useNewUrlParser: true, useUnifiedTopology: 
 
 
     /*IMPORTANT : 
-        All the methods used on the collections return a promise i.e (then ...catch) if the callback
+        All the methods used on the collections return a promise i.e (then ...catch) only if the callback
         function is not provided as an argument. Resolve and reject are returned accordingly.
     */
 
